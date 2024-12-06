@@ -1,11 +1,13 @@
 ﻿using Microsoft.AspNetCore.Identity;
+using System.ComponentModel.DataAnnotations;
 using System.Data.Entity;
 
-namespace ToDoListCodeFirst
+namespace ToDoListCodeFirst.DataModel
 {
     public class User
     {
-        public int idUser { get; set; }
+        [Key]
+        public int userID { get; set; }
 
         public string UserName { get; set; }
 

@@ -38,7 +38,6 @@ C:\MVS\ToDoListCodeFirst\bin\Debug\net6.0\Npgsql.dll
 C:\MVS\ToDoListCodeFirst\bin\Debug\net6.0\System.CodeDom.dll
 C:\MVS\ToDoListCodeFirst\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
 C:\MVS\ToDoListCodeFirst\bin\Debug\net6.0\System.Data.SqlClient.dll
-C:\MVS\ToDoListCodeFirst\bin\Debug\net6.0\System.Diagnostics.DiagnosticSource.dll
 C:\MVS\ToDoListCodeFirst\bin\Debug\net6.0\System.Drawing.Common.dll
 C:\MVS\ToDoListCodeFirst\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
 C:\MVS\ToDoListCodeFirst\bin\Debug\net6.0\System.Security.Permissions.dll
@@ -56,3 +55,14 @@ C:\MVS\ToDoListCodeFirst\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Drawing
 C:\MVS\ToDoListCodeFirst\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
 C:\MVS\ToDoListCodeFirst\bin\Debug\net6.0\runtimes\browser\lib\net6.0\System.Text.Encodings.Web.dll
 C:\MVS\ToDoListCodeFirst\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+C:\MVS\ToDoListCodeFirst\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\MVS\ToDoListCodeFirst\bin\Debug\net6.0\Microsoft.Extensions.Caching.Abstractions.dll
+C:\MVS\ToDoListCodeFirst\bin\Debug\net6.0\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\MVS\ToDoListCodeFirst\bin\Debug\net6.0\Microsoft.Extensions.Logging.dll
+C:\MVS\ToDoListCodeFirst\bin\Debug\net6.0\Microsoft.Extensions.Options.dll
+C:\MVS\ToDoListCodeFirst\bin\Debug\net6.0\Microsoft.Extensions.Primitives.dll
+C:\MVS\ToDoListCodeFirst\bin\Debug\net6.0\Npgsql.EntityFrameworkCore.PostgreSQL.dll
+C:\MVS\ToDoListCodeFirst\bin\Debug\net6.0\Humanizer.dll
+C:\MVS\ToDoListCodeFirst\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\MVS\ToDoListCodeFirst\bin\Debug\net6.0\Microsoft.Extensions.DependencyModel.dll
+C:\MVS\ToDoListCodeFirst\bin\Debug\net6.0\Mono.TextTemplating.dll
