@@ -1,7 +1,7 @@
 ﻿using System.ComponentModel.DataAnnotations;
 using System.Data.Entity;
 
-namespace ToDoListCodeFirst.DataModel
+namespace ToDoListCodeFirst.Model
 {
     public class ToDo
     {

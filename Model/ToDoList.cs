@@ -1,12 +1,12 @@
 ﻿using System.ComponentModel.DataAnnotations;
 using System.Data.Entity;
 
-namespace ToDoListCodeFirst.DataModel
+namespace ToDoListCodeFirst.Model
 {
     public class ToDoList
     {
         [Key]
-        public int listId { get; set; }
+        public int listID { get; set; }
 
         public int user { get; set; }
         public List<ToDo> tasks { get; set; }

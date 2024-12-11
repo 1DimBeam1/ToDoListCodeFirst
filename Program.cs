@@ -1,6 +1,4 @@
 using Microsoft.EntityFrameworkCore;
-using Npgsql;
-using System.Data.Entity;
 using ToDoListCodeFirst.Data;
 
 var builder = WebApplication.CreateBuilder(args);
