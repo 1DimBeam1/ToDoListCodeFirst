@@ -34,7 +34,7 @@ namespace ToDoListCodeFirst.Controllers
         }
 
         [HttpPost]
-        public async Task<ActionResult<ToDo>> PostToDoList(ToDo task)
+        public async Task<ActionResult<ToDo>> PostTask(ToDo task)
         {
             _context.Tasks.Add(task);
             await _context.SaveChangesAsync();
