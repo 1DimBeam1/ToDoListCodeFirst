@@ -66,3 +66,12 @@ C:\MVS\ToDoListCodeFirst\bin\Debug\net6.0\Humanizer.dll
 C:\MVS\ToDoListCodeFirst\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
 C:\MVS\ToDoListCodeFirst\bin\Debug\net6.0\Microsoft.Extensions.DependencyModel.dll
 C:\MVS\ToDoListCodeFirst\bin\Debug\net6.0\Mono.TextTemplating.dll
+C:\MVS\ToDoListCodeFirst\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\MVS\ToDoListCodeFirst\bin\Debug\net6.0\Microsoft.IdentityModel.Abstractions.dll
+C:\MVS\ToDoListCodeFirst\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\MVS\ToDoListCodeFirst\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+C:\MVS\ToDoListCodeFirst\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
+C:\MVS\ToDoListCodeFirst\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\MVS\ToDoListCodeFirst\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+C:\MVS\ToDoListCodeFirst\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
+C:\MVS\ToDoListCodeFirst\bin\Debug\net6.0\Newtonsoft.Json.dll

@@ -1,6 +1,7 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using ToDoListCodeFirst.Model;
 using ToDoListCodeFirst.Data;
+using Microsoft.AspNetCore.Authorization;
 
 
 namespace ToDoListCodeFirst.Controllers
@@ -16,12 +17,14 @@ namespace ToDoListCodeFirst.Controllers
         }
 
         [HttpGet]
+        [Authorize(Roles = "user, admin")]
         public IEnumerable<ToDo> GetTaskAll()
         {
             return _context.Tasks.AsEnumerable();
         }
 
         [HttpGet("{id}")]
+        [Authorize(Roles = "user, admin")]
         public async Task<ActionResult<ToDo>> GetTask(int id)
         {
             var task = await _context.Tasks.FindAsync(id);
@@ -34,6 +37,7 @@ namespace ToDoListCodeFirst.Controllers
         }
 
         [HttpPost]
+        [Authorize(Roles = "admin")]
         public async Task<ActionResult<ToDo>> PostTask(ToDo task)
         {
             _context.Tasks.Add(task);
