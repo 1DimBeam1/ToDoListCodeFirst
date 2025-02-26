@@ -5,7 +5,15 @@ using Microsoft.IdentityModel.Tokens;
 using Microsoft.OpenApi.Models;
 using ToDoListCodeFirst.Auth;
 using ToDoListCodeFirst.Auth.Helpers;
+using ToDoListCodeFirst.CQRS.To_Do.Commands;
+using ToDoListCodeFirst.CQRS.To_Do.Handlers;
+using ToDoListCodeFirst.CQRS.To_Do.Queries;
+using ToDoListCodeFirst.CQRS.To_DoList.Commands;
+using ToDoListCodeFirst.CQRS.To_DoList.Handlers;
+using ToDoListCodeFirst.CQRS.To_DoList.Queries;
+using ToDoListCodeFirst.CQRS;
 using ToDoListCodeFirst.Data;
+using ToDoListCodeFirst.Model;
 
 var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddDbContext<ApplicationDbContext>(options => 
@@ -52,6 +60,17 @@ builder.Services.AddSwaggerGen(c =>
     });
 });
 builder.Services.AddMemoryCache();
+
+builder.Services.AddScoped<ICommandHandler<CreateToDoCommand, ToDo>, CreateToDoHandler>();
+builder.Services.AddScoped<ICommandHandler<UpdateToDoCommand, ToDo>, UpdateToDoHandler>();
+builder.Services.AddScoped<ICommandHandler<DeleteToDoCommand, bool>, DeleteToDoHandler>();
+builder.Services.AddScoped<IQueryHandler<GetToDoQuery, ToDo>, GetToDoHandler>();
+builder.Services.AddScoped<IQueryHandler<GetAllToDosQuery, IEnumerable<ToDo>>, GetAllToDosHandler>();
+
+builder.Services.AddScoped<ICommandHandler<CreateToDoListCommand, ToDoList>, CreateToDoListHandler>();
+builder.Services.AddScoped<ICommandHandler<UpdateToDoListCommand, ToDoList>, UpdateToDoListHandler>();
+builder.Services.AddScoped<ICommandHandler<DeleteToDoListCommand, bool>, DeleteToDoListHandler>();
+builder.Services.AddScoped<IQueryHandler<GetToDoListQuery, ToDoList>, GetToDoListHandler>();
 
 var app = builder.Build();
 

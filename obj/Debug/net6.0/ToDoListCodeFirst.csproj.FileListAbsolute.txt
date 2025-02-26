@@ -19,7 +19,6 @@ C:\MVS\ToDoListCodeFirst\obj\Debug\net6.0\ToDoListCodeFirst.MvcApplicationPartsA
 C:\MVS\ToDoListCodeFirst\obj\Debug\net6.0\staticwebassets.build.json
 C:\MVS\ToDoListCodeFirst\obj\Debug\net6.0\staticwebassets.development.json
 C:\MVS\ToDoListCodeFirst\obj\Debug\net6.0\scopedcss\bundle\ToDoListCodeFirst.styles.css
-C:\MVS\ToDoListCodeFirst\obj\Debug\net6.0\ToDoListCodeFirst.csproj.CopyComplete
 C:\MVS\ToDoListCodeFirst\obj\Debug\net6.0\ToDoListCodeFirst.dll
 C:\MVS\ToDoListCodeFirst\obj\Debug\net6.0\refint\ToDoListCodeFirst.dll
 C:\MVS\ToDoListCodeFirst\obj\Debug\net6.0\ToDoListCodeFirst.pdb
@@ -75,3 +74,14 @@ C:\MVS\ToDoListCodeFirst\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.Open
 C:\MVS\ToDoListCodeFirst\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
 C:\MVS\ToDoListCodeFirst\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
 C:\MVS\ToDoListCodeFirst\bin\Debug\net6.0\Newtonsoft.Json.dll
+C:\MVS\ToDoListCodeFirst\bin\Debug\net6.0\ToDoListCodeFirst.staticwebassets.endpoints.json
+C:\MVS\ToDoListCodeFirst\obj\Debug\net6.0\ToDoListCodeFirst.sourcelink.json
+C:\MVS\ToDoListCodeFirst\obj\Debug\net6.0\staticwebassets.build.endpoints.json
+C:\MVS\ToDoListCodeFirst\obj\Debug\net6.0\staticwebassets\msbuild.ToDoListCodeFirst.Microsoft.AspNetCore.StaticWebAssets.props
+C:\MVS\ToDoListCodeFirst\obj\Debug\net6.0\staticwebassets\msbuild.ToDoListCodeFirst.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
+C:\MVS\ToDoListCodeFirst\obj\Debug\net6.0\staticwebassets\msbuild.build.ToDoListCodeFirst.props
+C:\MVS\ToDoListCodeFirst\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.ToDoListCodeFirst.props
+C:\MVS\ToDoListCodeFirst\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.ToDoListCodeFirst.props
+C:\MVS\ToDoListCodeFirst\obj\Debug\net6.0\staticwebassets.pack.json
+C:\MVS\ToDoListCodeFirst\obj\Debug\net6.0\staticwebassets.upToDateCheck.txt
+C:\MVS\ToDoListCodeFirst\obj\Debug\net6.0\ToDoList.A5017336.Up2Date
